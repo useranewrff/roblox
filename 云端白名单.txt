@@ -1524,6 +1524,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/m
 
 local Tab = Window:MakeTab({
 
+	Name = "起床",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "搭配键盘左shirt使用",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "彩虹朋友",
 
     Icon = "rbxassetid://4483345998",
@@ -1590,7 +1612,7 @@ jianke_V3 = "作者_初夏"jianke = "剑客QQ群347724155"loadstring(game:HttpGe
 
 Tab:AddButton({
 
-	Name = "兵工厂",
+	Name = "兵工厂_有卡",
 
 	Callback = function()
 

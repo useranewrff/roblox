@@ -1502,6 +1502,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywar
 
 local Tab = Window:MakeTab({
 
+	Name = "piggy",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "彩虹朋友",
 
     Icon = "rbxassetid://4483345998",

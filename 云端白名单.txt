@@ -105,12 +105,12 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "导管中心", HidePremium = false, SaveConfig = true,IntroText = "sb脚本", ConfigFolder = "sb脚本"})
+local Window = OrionLib:MakeWindow({Name = "开源死马中心", HidePremium = false, SaveConfig = true,IntroText = "sb脚本", ConfigFolder = "sb脚本"})
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "sb脚本"; Text ="sB脚本"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "sb制作",
+    Name = "绿帽子制作",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 
@@ -135,7 +135,7 @@ Tab:AddButton({
 
 	Callback = function()
 
-     setclipboard("没有")
+     setclipboard("2332848181")
 
   	end
 
@@ -147,7 +147,7 @@ Tab:AddButton({
 
 	Callback = function()
 
-     setclipboard("没复制")
+     setclipboard("855219798")
 
   	end
 

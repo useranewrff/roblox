@@ -1546,6 +1546,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4Fo
 
 local Tab = Window:MakeTab({
 
+	Name = "强壮传奇",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1337xyz/robloxscripts/master/ThickLegends.lua"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "彩虹朋友",
 
     Icon = "rbxassetid://4483345998",

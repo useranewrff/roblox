@@ -1480,6 +1480,28 @@ jianke_V3 = "作者_初夏"jianke = "剑客QQ群347724155"loadstring(game:HttpGe
 
 local Tab = Window:MakeTab({
 
+	Name = "51区",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "会覆盖",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "彩虹朋友",
 
     Icon = "rbxassetid://4483345998",

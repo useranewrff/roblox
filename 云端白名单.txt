@@ -1590,6 +1590,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fff2dwaNNnw243f/-wre4
 
 local Tab = Window:MakeTab({
 
+	Name = "rake",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "还行",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/the-rake.lua", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "彩虹朋友",
 
     Icon = "rbxassetid://4483345998",

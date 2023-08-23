@@ -1695,6 +1695,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsLynX/LynX/main
 
 })
 
+Tab:AddButton({
+
+	Name = "script 4",
+
+	Callback = function()
+
+loadstring(juego:HttpGet(('://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+
+    end
+
+})
+
 local Tab = Window:MakeTab({
 
     Name = "彩虹朋友",

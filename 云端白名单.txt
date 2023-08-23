@@ -1500,6 +1500,33 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywar
 
 })
 
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51", true))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 3",
+
+	Callback = function()
+
+_G.RedGUI = true
+_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+--Themes: Light, Dark, Mocha, Aqua and Jester
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SurviveandKilltheKillersinArea51.lua"))()
+
+    end
+
+})
+
 local Tab = Window:MakeTab({
 
 	Name = "piggy",
@@ -1590,6 +1617,40 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fff2dwaNNnw243f/-wre4
 
 local Tab = Window:MakeTab({
 
+	Name = "僵尸起义",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-V2/main/ToxicTDX%20V2", true))()	
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0N1y7RyM"))() 
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
 	Name = "rake",
 
 	Icon = "rbxassetid://4483345998",
@@ -1600,11 +1661,35 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 
-	Name = "还行",
+	Name = "evolved",
 
 	Callback = function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/the-rake.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/RakeEvolved/Stable/Source.lua"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "Realzzhub",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "Lynx",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsLynX/LynX/main/KeySystem/Loader.lua"))()
 
     end
 

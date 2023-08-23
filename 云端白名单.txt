@@ -1787,6 +1787,257 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/jiankeQWQ/Fish/main/
 
 local Tab = Window:MakeTab({
 
+	Name = "51区",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "会覆盖",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51", true))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 3",
+
+	Callback = function()
+
+_G.RedGUI = true
+_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+--Themes: Light, Dark, Mocha, Aqua and Jester
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SurviveandKilltheKillersinArea51.lua"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "piggy",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0piggy2", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "起床",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "搭配键盘左shirt使用",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "强壮传奇",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1337xyz/robloxscripts/master/ThickLegends.lua"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "SCP: Roleplay",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fff2dwaNNnw243f/-wre4eret..-----SCP-Site-Roleplay-----..refdfd/main/main"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "僵尸起义",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-V2/main/ToxicTDX%20V2", true))()	
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0N1y7RyM"))() 
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "the rake",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "evolved",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/RakeEvolved/Stable/Source.lua"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "Realzzhub",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "Lynx",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsLynX/LynX/main/KeySystem/Loader.lua"))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "感染性微笑",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+Tab:AddButton({
+
+	Name = "script 1",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/TqgbdDjF"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
+
+    end
+
+})
+
+local Tab = Window:MakeTab({
+
     Name = "大闹监狱（监狱人生）",
 
     Icon = "rbxassetid://4483345998",

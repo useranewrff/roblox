@@ -3253,9 +3253,19 @@ Tab:AddButton({
 
 })
 
- 
+Tab:AddButton({
 
- Tab:AddButton({
+	Name = "RTX光影",
+
+	Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/Bkf0BJb3'))()
+
+    end
+
+})
+
+Tab:AddButton({
 
   Name = "HUA 光影",
 

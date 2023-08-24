@@ -539,6 +539,18 @@ Tab:AddButton({
 
 Tab:AddButton({
 
+	Name = "全图甩飞",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0JjNXtgN"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
 	Name = "防止掉线（反挂机）",
 
 	Callback = function()
@@ -1700,6 +1712,18 @@ Tab:AddButton({
 	Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fff2dwaNNnw243f/-wre4eret..-----SCP-Site-Roleplay-----..refdfd/main/main"))()
+
+    end
+
+})
+
+Tab:AddButton({
+
+	Name = "script 2",
+
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SCPRoleplay.lua", true))()
 
     end
 

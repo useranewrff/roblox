@@ -64,7 +64,7 @@ CoreGui:SetCore("SendNotification", {
 
 wait(3.5)
 
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/roblox-/main/ui.txt"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer

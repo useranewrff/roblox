@@ -95,7 +95,7 @@ function lib:Window(text, preset, closebind)
     Main.Size = UDim2.new(0, 0, 0, 0)
     Main.ClipsDescendants = true
     Main.Visible = true
-    Main.Image = "rbxassetid://8931997831​"--这里填你的背景图ID(要roblox的图片ID)
+    Main.Image = "rbxassetid://15888420605​"--这里填你的背景图ID(要roblox的图片ID)
     TabHold.Name = "TabHold"
     TabHold.Parent = Main
     TabHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)

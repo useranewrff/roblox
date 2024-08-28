@@ -1,0 +1,45 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/roblox/main/%E9%BB%91%E9%87%91.lua"))()
+
+local Window = OrionLib:MakeWindow({Name = "导管中心", HidePremium = false, SaveConfig = true,IntroText = "原神启动", ConfigFolder = "原神启动"})
+
+local Tab = Window:MakeTab({
+    Name = "极速传奇",
+    Icon = "rbxassetid://13519683179",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "点击获得步数",
+    Callback = function()
+        local args = {
+            [1] = "collectOrb",
+            [2] = "Blue Orb",
+            [3] = "City"
+        }
+        game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+
+    end
+})
+
+_G.cnmb = true
+
+function cnmb()
+    while_G.cnmb == true
+    wait()
+    local args = {
+            [1] = "collectOrb",
+            [2] = "Blue Orb",
+            [3] = "City"
+        }
+        game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+
+    end
+end
+
+Tap:AddToggle({
+    Name = "持续获得步数",
+	Callback = function(Value)
+        _G.cnmb = Value
+            cnmb()
+    end
+})
